@@ -10,5 +10,5 @@ it("Assertion Demo", () => {
   expect(true).to.be.true;
 
   assert.equal(4, "4", "NOT_EQUAL"); // Will pass because of type coercion
-  assert.strictEqual(4, "4", "EQUAL"); // Will fail strict equality
+  assert.strictEqual(4, "4", "NOT_EQUAL"); // Will fail strict equality
 });
